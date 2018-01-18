@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Utils
+namespace Utils.LDAP
 {
-    public class Class1
+    public class DirectoryObjectSync : DirectoryObject
     {
+        public DirectoryObject Source;
+
     }
 }
